@@ -11,26 +11,46 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A small color palette package for Flutter. It contains beautiful Tailwind CSS Color palette.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Use goodly organized and really nice colors on your flutter project with adding just one line to your depedencies.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- Just add the package to your project, you are ready to use it.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+
 
 ```dart
-const like = 'sample';
+Color c0 = TailwindColors.sky.shade500
+Color c1 = TailwindColors.orange.shade500
+Color c2 = TailwindColors.sky.shade950
 ```
+Check all colors from [here](https://tailwindcss.com/docs/customizing-colors). <br />
+
+Use extension methods below to get all the tones of a color:
+
+```dart
+extension ListOfColorsExtensions on List<Color> {
+  Color get shade50 => this[0];
+  Color get shade100 => this[1];
+  Color get shade200 => this[2];
+  Color get shade300 => this[3];
+  Color get shade400 => this[4];
+  Color get shade500 => this[5];
+  Color get shade600 => this[6];
+  Color get shade700 => this[7];
+  Color get shade800 => this[8];
+  Color get shade900 => this[9];
+  Color get shade950 => this[10];
+}
+```
+
+Check `TailwindColors` class for all the colors available.
 
 ## Additional information
 
