@@ -52,9 +52,6 @@ extension ListOfColorsExtensions on List<Color> {
 
 Check `TailwindColors` class for all the colors available.
 
-## Additional information
+## Source of Colors
+Colors are from beautiful Tailwind CSS Palette check [here](https://tailwindcss.com/docs/customizing-colors). <br />
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
-# fl_tailwindcss_colors
