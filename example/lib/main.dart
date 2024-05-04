@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Padding(
                   padding: const EdgeInsets.only(left: 8),
                   child: Text(
-                    _colorCollectionNames[TailwindColors.all.indexOf(colorCollection)],
+                    _colorCollectionNames[index],
                     style: Theme.of(context).textTheme.titleSmall,
                   ),
                 ),
