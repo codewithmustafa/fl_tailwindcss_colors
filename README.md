@@ -13,6 +13,10 @@ and the Flutter guide for
 
 A small color palette package for Flutter. It contains beautiful Tailwind CSS Color palette.
 
+## Demo
+
+![Demo](demo/demo.gif)
+
 ## Features
 
 Use goodly organized and really nice colors on your flutter project with adding just one line to your dependencies.
