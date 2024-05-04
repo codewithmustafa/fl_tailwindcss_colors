@@ -15,27 +15,31 @@ A small color palette package for Flutter. It contains beautiful Tailwind CSS Co
 
 ## Features
 
-- Use goodly organized and really nice colors on your flutter project with adding just one line to your depedencies.
+Use goodly organized and really nice colors on your flutter project with adding just one line to your dependencies.
 
 ## Getting started
 
-- Just add the package to your project, you are ready to use it.
+Just add the package to your project and you are ready to use it.
+
+```yaml
+dependencies:
+  fl_tailwindcss_colors: ^0.0.1
+```
 
 ## Usage
 
-
-
 ```dart
-Color c0 = TailwindColors.sky.shade500
-Color c1 = TailwindColors.orange.shade500
-Color c2 = TailwindColors.sky.shade950
+Color colorSky500 = TailwindColors.sky.shade500
+Color colorOrange500 = TailwindColors.orange.shade500
+Color colorSky950 = TailwindColors.sky.shade950
 ```
+
 Check all colors from [here](https://tailwindcss.com/docs/customizing-colors). <br />
 
 Use extension methods below to get all the tones of a color:
 
 ```dart
-extension ListOfColorsExtensions on List<Color> {
+extension ListOfColorExtensions on List<Color> {
   Color get shade50 => this[0];
   Color get shade100 => this[1];
   Color get shade200 => this[2];
@@ -53,5 +57,5 @@ extension ListOfColorsExtensions on List<Color> {
 Check `TailwindColors` class for all the colors available.
 
 ## Source of Colors
-Colors are from beautiful Tailwind CSS Palette check [here](https://tailwindcss.com/docs/customizing-colors). <br />
 
+Colors are from beautiful Tailwind CSS Palette check [here](https://tailwindcss.com/docs/customizing-colors). <br />
