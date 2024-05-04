@@ -86,9 +86,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       for (final color in colorCollection)
                         Container(
+                          margin: const EdgeInsets.all(1),
+                          decoration: BoxDecoration(
+                            color: color,
+                            borderRadius: BorderRadius.circular(2),
+                          ),
                           width: _colorTileDm,
                           height: _colorTileDm,
-                          color: color,
                         ),
                     ],
                   ),
