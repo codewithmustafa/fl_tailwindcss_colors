@@ -1,6 +1,36 @@
-import 'package:flutter/material.dart';
+import 'dart:ui' show Color;
 
+/// A class that contains all colors from the Tailwind CSS Framework's color palette
+/// Inspiration/Reference: https://tailwindcss.com/docs/customizing-colors
+/// Names of color collections are taken from the Tailwind CSS documentation for the purpose of consistency and familiarity
 class TailwindColors {
+  /// All color collections
+  static const List<List<Color>> all = [
+    slate,
+    gray,
+    zinc,
+    neutral,
+    stone,
+    red,
+    orange,
+    amber,
+    yellow,
+    lime,
+    green,
+    emerald,
+    teal,
+    cyan,
+    sky,
+    blue,
+    indigo,
+    violet,
+    purple,
+    fuchsia,
+    pink,
+    rose,
+  ];
+
+  /// Slate color collection
   static const List<Color> slate = [
     Color(0xFFF8FAFC),
     Color(0xFFF1F5F9),
@@ -15,6 +45,7 @@ class TailwindColors {
     Color(0xFF020617),
   ];
 
+  /// Gray color collection
   static const List<Color> gray = [
     Color(0xFFF9FAFB),
     Color(0xFFF3F4F6),
@@ -29,6 +60,7 @@ class TailwindColors {
     Color(0xFF030712),
   ];
 
+  /// Zinc color collection
   static const List<Color> zinc = [
     Color(0xFFFAFAFA),
     Color(0xFFF4F4F5),
@@ -43,6 +75,7 @@ class TailwindColors {
     Color(0xFF09090b),
   ];
 
+  /// Neutral color collection
   static const List<Color> neutral = [
     Color(0xFFFAFAFA),
     Color(0xFFF5F5F5),
@@ -57,6 +90,7 @@ class TailwindColors {
     Color(0xFF0a0a0a),
   ];
 
+  /// Stone color collection
   static const List<Color> stone = [
     Color(0xFFFAFAF9),
     Color(0xFFF5F5F4),
@@ -71,6 +105,7 @@ class TailwindColors {
     Color(0xFF0c0a09),
   ];
 
+  /// Red color collection
   static const List<Color> red = [
     Color(0xFFFEF2F2),
     Color(0xFFFEE2E2),
@@ -85,6 +120,7 @@ class TailwindColors {
     Color(0xFF450a0a),
   ];
 
+  /// Orange color collection
   static const List<Color> orange = [
     Color(0xFFFFF7ED),
     Color(0xFFFFEDD5),
@@ -99,6 +135,7 @@ class TailwindColors {
     Color(0xFF431407),
   ];
 
+  /// Amber color collection
   static const List<Color> amber = [
     Color(0xFFFFFBEB),
     Color(0xFFFEF3C7),
@@ -113,6 +150,7 @@ class TailwindColors {
     Color(0xFF451a03),
   ];
 
+  /// Yellow color collection
   static const List<Color> yellow = [
     Color(0xffFEFCE8),
     Color(0xffFEF9C3),
@@ -127,6 +165,7 @@ class TailwindColors {
     Color(0xFF422006),
   ];
 
+  /// Lime color collection
   static const List<Color> lime = [
     Color(0xffF7FEE7),
     Color(0xffECFCCB),
@@ -141,6 +180,7 @@ class TailwindColors {
     Color(0xFF1a2e05),
   ];
 
+  /// Green color collection
   static const green = [
     Color(0xffF0FDF4),
     Color(0xffDCFCE7),
@@ -155,6 +195,7 @@ class TailwindColors {
     Color(0xFF052e16),
   ];
 
+  /// Emerald color collection
   static const emerald = [
     Color(0xffECFDF5),
     Color(0xffD1FAE5),
@@ -169,6 +210,7 @@ class TailwindColors {
     Color(0xff022c22),
   ];
 
+  /// Teal color collection
   static const teal = [
     Color(0xffF0FDFA),
     Color(0xffCCFBF1),
@@ -183,6 +225,7 @@ class TailwindColors {
     Color(0xff042f2e),
   ];
 
+  /// Cyan color collection
   static const cyan = [
     Color(0xFFECFEFF),
     Color(0xFFCFFAFE),
@@ -197,6 +240,7 @@ class TailwindColors {
     Color(0xFF083344),
   ];
 
+  /// Sky color collection
   static const List<Color> sky = [
     Color(0xFFF0F9FF),
     Color(0xFFE0F2FE),
@@ -211,6 +255,7 @@ class TailwindColors {
     Color(0xFF082f49),
   ];
 
+  /// Blue color collection
   static const List<Color> blue = [
     Color(0xFFEFF6FF),
     Color(0xFFDBEAFE),
@@ -225,6 +270,7 @@ class TailwindColors {
     Color(0xFF172554),
   ];
 
+  /// Indigo color collection
   static const List<Color> indigo = [
     Color(0xFFEEF2FF),
     Color(0xFFE0E7FF),
@@ -239,6 +285,7 @@ class TailwindColors {
     Color(0xFF1e1b4b),
   ];
 
+  /// Violet color collection
   static const List<Color> violet = [
     Color(0xFFF5F3FF),
     Color(0xFFEDE9FE),
@@ -253,6 +300,7 @@ class TailwindColors {
     Color(0xFF2e1065),
   ];
 
+  /// Purple color collection
   static const List<Color> purple = [
     Color(0xFFFAF5FF),
     Color(0xFFF3E8FF),
@@ -267,6 +315,7 @@ class TailwindColors {
     Color(0xFF3b0764),
   ];
 
+  /// Fuchsia color collection
   static const List<Color> fuchsia = [
     Color(0xFFFDF4FF),
     Color(0xFFFAE8FF),
@@ -281,6 +330,7 @@ class TailwindColors {
     Color(0xFF4a044e),
   ];
 
+  /// Pink color collection
   static const List<Color> pink = [
     Color(0xFFFFF2F8),
     Color(0xFFFCE7F3),
@@ -295,6 +345,7 @@ class TailwindColors {
     Color(0xFF500724),
   ];
 
+  /// Rose color collection
   static const List<Color> rose = [
     Color(0xFFFFF1F2),
     Color(0xFFFFE4E6),

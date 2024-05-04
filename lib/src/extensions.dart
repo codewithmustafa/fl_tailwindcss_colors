@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+import 'dart:ui' show Color;
 
-extension ListOfColorsExtensions on List<Color> {
+/// Extension methods for easy use of [TailwindColors] color collections
+extension ListOfColorExtensions on List<Color> {
   Color get shade50 => this[0];
   Color get shade100 => this[1];
   Color get shade200 => this[2];
