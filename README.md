@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-A small color palette package for Flutter. It contains beautiful Tailwind CSS Color palette.
+A small color palette package for Flutter. It contains beautiful Tailwind CSS Color palette. Also utilizes extension methods to make it easier to use.
 
 ## Demo
 
