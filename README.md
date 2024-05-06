@@ -60,6 +60,6 @@ extension ListOfColorExtensions on List<Color> {
 
 Check `TailwindPalette` class for all the colors available.
 
-## Source of Colors
+## NOTICE and REFERENCE
 
 Colors are from beautiful Tailwind CSS Palette check [here](https://tailwindcss.com/docs/customizing-colors). <br />
