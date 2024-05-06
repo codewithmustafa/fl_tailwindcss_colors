@@ -27,15 +27,15 @@ Just add the package to your project and you are ready to use it.
 
 ```yaml
 dependencies:
-  fl_tailwindcss_colors: ^0.0.1
+  tailwind_palette: ^0.0.1
 ```
 
 ## Usage
 
 ```dart
-Color colorSky500 = TailwindColors.sky.shade500
-Color colorOrange500 = TailwindColors.orange.shade500
-Color colorSky950 = TailwindColors.sky.shade950
+Color colorSky500 = TailwindPalette.sky.shade500
+Color colorOrange500 = TailwindPalette.orange.shade500
+Color colorSky950 = TailwindPalette.sky.shade950
 ```
 
 Check all colors from [here](https://tailwindcss.com/docs/customizing-colors). <br />
@@ -58,7 +58,7 @@ extension ListOfColorExtensions on List<Color> {
 }
 ```
 
-Check `TailwindColors` class for all the colors available.
+Check `TailwindPalette` class for all the colors available.
 
 ## Source of Colors
 
