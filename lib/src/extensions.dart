@@ -1,10 +1,8 @@
 import 'dart:ui' show Color;
 
-import 'package:fl_tailwindcss_colors/fl_tailwindcss_colors.dart';
+import 'package:tailwind_palette/src/tailwind_palette.dart';
 
-import 'package:fl_tailwindcss_colors/src/tailwind_colors.dart';
-
-/// Extension methods for easy use of [TailwindColors] color collections
+/// Extension methods for easy use of [TailwindPalette] color collections
 extension ListOfColorExtensions on List<Color> {
   /// Returns the color at index 0, which is the lightest shade in the collection
   Color get shade50 => this[0];

@@ -1,4 +1,4 @@
-name: fl_tailwindcss_colors
+name: tailwind_palette
 description: A package that contains Tailwind CSS color palette.
 version: 0.0.1
 # author: Mustafa Demir <codingwithmustafa@icloud.com>

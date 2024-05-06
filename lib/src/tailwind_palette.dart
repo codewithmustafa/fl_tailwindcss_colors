@@ -3,7 +3,7 @@ import 'dart:ui' show Color;
 /// A class that contains all colors from the Tailwind CSS Framework's color palette
 /// Inspiration/Reference: https://tailwindcss.com/docs/customizing-colors
 /// Names of color collections are taken from the Tailwind CSS documentation for the purpose of consistency and familiarity
-class TailwindColors {
+class TailwindPalette {
   /// All color collections
   static const List<List<Color>> all = [
     slate,

@@ -1,5 +1,5 @@
-import 'package:fl_tailwindcss_colors/fl_tailwindcss_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:tailwind_palette/tailwind_palette.dart';
 
 void main() {
   runApp(const MyApp());
@@ -66,9 +66,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: ListView.builder(
-          itemCount: TailwindColors.all.length,
+          itemCount: TailwindPalette.all.length,
           itemBuilder: (context, index) {
-            final colorCollection = TailwindColors.all[index];
+            final colorCollection = TailwindPalette.all[index];
             return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

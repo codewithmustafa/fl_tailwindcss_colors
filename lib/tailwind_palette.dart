@@ -1,5 +1,5 @@
 /// A library that contains Tailwind CSS color palette
-library fl_tailwindcss_colors;
+library tailwind_palette;
 
 export 'src/extensions.dart';
-export 'src/tailwind_colors.dart';
+export 'src/tailwind_palette.dart';
