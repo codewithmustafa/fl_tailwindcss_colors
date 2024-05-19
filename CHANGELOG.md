@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Add repository and issues urls for pub.dev
+
 ## 0.0.3
 
 - Update demo gif path

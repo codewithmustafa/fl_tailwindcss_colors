@@ -27,7 +27,7 @@ Just add the package to your project and you are ready to use it.
 
 ```yaml
 dependencies:
-  tailwind_palette: ^0.0.1
+  tailwind_palette: ^0.0.4
 ```
 
 ## Usage

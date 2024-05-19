@@ -1,8 +1,10 @@
 name: tailwind_palette
 description: A package that contains Tailwind CSS color palette. Package is inspired by https://tailwindcss.com/docs/customizing-colors. Also utilizes extension methods to make it easier to use.
-version: 0.0.3
+version: 0.0.4
 # author: Mustafa Demir <codingwithmustafa@icloud.com>
 homepage: https://www.twitter.com/codewithmustafa
+repository: https://github.com/codewithmustafa/fl_tailwindcss_colors/tree/main
+issue_tracker: https://github.com/codewithmustafa/fl_tailwindcss_colors/issues
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
