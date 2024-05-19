@@ -15,7 +15,7 @@ A small color palette package for Flutter. It contains beautiful Tailwind CSS Co
 
 ## Demo
 
-![Demo](demo/demo.gif)
+![Demo](https://github.com/codewithmustafa/fl_tailwindcss_colors/raw/main/demo/demo.gif)
 
 ## Features
 
