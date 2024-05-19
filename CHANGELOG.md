@@ -1,3 +1,7 @@
+## 0.0.3
+
+- Update demo gif path
+
 ## 0.0.2
 
 - Update readme
